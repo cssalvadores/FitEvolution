@@ -21,7 +21,7 @@ namespace FitEvolution.Data.Entities
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Sua_Connection_String");
+            optionsBuilder.UseSqlServer("Server=AGEU-PC;Database=FitEvolution;MultipleActiveResultSets=True;Trusted_Connection=True;TrustServerCertificate=True");
         }
 
     }
